@@ -1,0 +1,25 @@
+.containerhead{
+    width: 260.62px;
+    margin: 0 auto;
+}
+
+.containersect{
+    width: 495px;
+}
+
+.nav{
+    border: solid yellow 5px;
+    display: flex;
+}
+
+.text1{
+    font-weight: 400;
+font-size: 45.3505px;
+line-height: 67px;
+}
+
+.logo{
+    /* position: absolute; */
+width: 64.25px;
+height: 74.56px;
+}

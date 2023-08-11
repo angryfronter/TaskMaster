@@ -1,0 +1,250 @@
+<mxfile host="65bd71144e">
+    <diagram id="xwPtIF6AVnGMe6hDdr-R" name="Page-1">
+        <mxGraphModel dx="2196" dy="1013" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Управляющий директор" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="581" y="59" width="168" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-86.5" y="191" width="1503" height="155" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Руководитель отдела продаж" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Руководитель отдела маркетинга" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="152" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Руководитель отдела разработки" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="304" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Руководитель отдела управления проектами" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="456" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Руководитель отдела качества" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="608" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Руководитель отдела ресурсов" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="760" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Руководитель отдела финансов" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="912" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Руководитель отдела информационной безопасности" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="1064" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Руководитель отдела поддержки клиентов" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="1216" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Руководитель отдела исследований и развития" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="1368" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Руководитель отдела продаж" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Руководитель отдела маркетинга" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="152" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Руководитель отдела разработки" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="304" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Руководитель отдела управления проектами" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="456" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Руководитель отдела качества" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="608" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Руководитель отдела ресурсов" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="760" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="Руководитель отдела продаж" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Руководитель отдела маркетинга" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="152" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="Руководитель отдела разработки" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="304" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="Руководитель отдела управления проектами" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="456" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="Руководитель отдела качества" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="608" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Руководитель отдела ресурсов" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="760" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Руководитель отдела информационной безопасности" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="1064" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Руководитель отдела финансов" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="912" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Руководитель отдела поддержки клиентов" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="1216" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="36">
+                    <mxGeometry x="518.5" y="68" width="10" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="36">
+                    <mxGeometry x="670.5" y="68" width="10" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="36">
+                    <mxGeometry x="822.5" y="68" width="10" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="36">
+                    <mxGeometry x="974.5" y="68" width="10" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="36">
+                    <mxGeometry x="1126.5" y="68" width="10" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="36">
+                    <mxGeometry x="1278.5" y="68" width="10" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="36">
+                    <mxGeometry x="1430.5" y="68" width="10" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="Руководитель отдела продаж" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="Руководитель отдела маркетинга" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="152" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="Руководитель отдела разработки" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="304" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="Руководитель отдела управления проектами" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="456" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="Руководитель отдела качества" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="608" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="Руководитель отдела ресурсов" style="rounded=0;fillColor=#B3B3B3;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="760" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="Руководитель отдела продаж" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="Руководитель отдела маркетинга" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="152" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="Руководитель отдела разработки" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="304" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="Руководитель отдела управления проектами" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="456" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="Руководитель отдела качества" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="608" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="Руководитель отдела ресурсов" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="760" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="Руководитель отдела финансов" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="912" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="Руководитель отдела информационной безопасности" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="1064" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="Руководитель отдела поддержки клиентов" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="36">
+                    <mxGeometry x="1216" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="Сотрудники" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="1281.5" y="347" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Сотрудники" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="-86.5" y="347" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="Сотрудники" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="65.5" y="347" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="Сотрудники" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="217.5" y="347" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Сотрудники" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="369.5" y="347" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="Сотрудники" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="521.5" y="347" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="Сотрудники" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="673.5" y="347" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Сотрудники" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="977.5" y="347" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="Сотрудники" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="825.5" y="347" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="Сотрудники" style="rounded=0;fillColor=#CCCCCC;fontColor=#000000;fontFamily=Times New Roman;fontSize=14;align=center;html=1;whiteSpace=wrap;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="1129.5" y="347" width="135" height="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="edgeStyle=segmentEdgeStyle;endArrow=none;html=1;curved=0;rounded=0;endSize=8;startSize=8;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="2" target="45">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="197" y="130" as="sourcePoint"/>
+                        <mxPoint x="59" y="92" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="" style="edgeStyle=segmentEdgeStyle;endArrow=none;html=1;curved=0;rounded=0;endSize=8;startSize=8;strokeColor=#000000;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="2" target="12">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="2016.5" y="63" as="sourcePoint"/>
+                        <mxPoint x="1416.5" y="161" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="128" y="93" width="10" height="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="93" width="10" height="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="432" y="93" width="10" height="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="888" y="93" width="10" height="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="93" width="10" height="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="1192" y="93" width="10" height="98" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="584" y="128" width="10" height="63" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="736" y="127" width="10" height="63" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="-24" y="259" width="10" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="128" y="259" width="10" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="" style="line;strokeWidth=1;direction=south;html=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=#B3B3B3;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="259" width="10" height="87" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-92" y="293" width="1517" height="365" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=none;glass=0;imageAspect=0;noLabel=0;overflow=visible;fillOpacity=100;expand=1;" vertex="1" parent="1">
+                    <mxGeometry x="-92" y="336" width="453" height="322" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="514" y="293" width="759" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="665" y="327" width="760" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Команды проектов&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="584" y="682" width="162" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=Times New Roman;fontSize=14;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="209" y="311" width="760" height="324" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TaskMaster</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="../js/tasksajax.js"></script>
+  <script src="../js/tasks.js"></script>
+  <script src="../js/sort.js"></script>
+  <script src="../js/tabs.js"></script>   
+  <script src="../js/employee.js"></script> 
+  
+  <!-- <script src="/task.js"></script> -->
+  <!-- Custom CSS -->
+  <style>
+    body {
+      margin: 0;
+    }
+    .card {
+      margin-bottom: 20px;
+    }
+    .card-header {
+      /* background-color: #007bff; */
+      color: #000000;
+      font-weight: bold;
+    }
+    .badge {
+      font-size: 14px;
+    }
+
+    .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title {
+  margin-bottom: 0;
+}
+
+.modal-body {
+  padding: 0;
+}
+
+.modal-body input {
+  margin-bottom: 1rem;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-footer button {
+  margin-right: 1rem;
+}
+	/* Style for tabs */
+  .tab {
+			overflow: hidden;
+			/* border: 1px solid #666666; */
+			background-color: #a8a8a8;
+			width: 15%;
+      height: 43.6rem;
+			float: left;
+		}
+
+		/* Style for tab links */
+		.tab a {
+			display: block;
+			color: #ffffff;
+			padding: 8px 16px;
+			text-decoration: none;
+			transition: 0.3s;
+		}
+
+		/* Style for active tab link */
+		.tab a.active {
+			background-color: #676767;
+		}
+
+		/* Style for tab content */
+		.tabcontent {
+			display: none;
+			padding: 6px 12px;
+			/* border: 1px solid #ccc; */
+			border-top: none;
+			width: 80%;
+			float: left;
+		}
+
+    .text1{
+      font-size: 20px;
+      font-weight: bold;
+      color: #08376a;
+    }
+
+    #text{
+      font-size: 20px;
+      font-weight: bold;
+      color: #08376a;
+    }
+
+    .text2{
+      font-size: 20px;
+      font-weight: bold;
+      color: #e0da2d;
+    }
+
+    .text3{
+      font-size: 20px;
+      font-weight: bold;
+      color: #1cb117;
+    }
+    .bg-light{
+      background-color:#262626;
+    }
+
+    .modal-content {
+  padding: 20px;
+}
+
+.modal-body {
+  margin-bottom: 20px;
+}
+  </style>
+</head>
+<body onload="getTasks()">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">TaskMaster</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto"> <!-- Change ml-auto to mr-auto -->
+        <li class="nav-item">
+          <a class="nav-link" href="ptofile2.html">
+            <i class="fa fa-user-circle"></i> Профиль
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto"> <!-- Add a new unordered list for the right-aligned items -->
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" id="logoutBtn">Выход</a> <!-- Add the logout button -->
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="tab">
+    <a class="active" href="#" onclick="openTab(event, 'tasks')">Задачи</a>
+    <a href="#" onclick="openTab(event, 'employees')">Сотрудники</a>
+    <!-- <div class="container">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addTaskModal">
+      Создать задачу
+    </button>
+  </div> -->
+    <!-- Modal -->
+    <!-- <div class="modal fade" id="addTaskModal" tabindex="-1" role="dialog" aria-labelledby="addTaskModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="addTaskModalLabel">Добавление новой задачи</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form method="post" action="http://localhost/addTask.php">
+              <div class="form-group">
+                <label for="topic">Название задачи</label>
+                <input type="text" class="form-control" id="topic" placeholder="Введите название задачи" required>
+              </div>
+              <div class="form-group">
+                <label for="deadline">Сроки</label>
+                <input type="datetime-local" class="form-control" id="deadline">
+              </div>
+              <div class="form-group">
+                <label for="executor">Выбрать исполнителя</label>
+                <input type="text" class="form-control" id="executor" placeholder="Выберите исполнителя">
+              </div>
+              <div class="form-group">
+                <label for="textarea">Комментарий к задаче</label>
+                <input type="textarea" class="form-control" id="textarea" placeholder="Добавьте комментарий к задаче">
+              </div>
+              <div class="form-group">
+                <label for="file">Рабочий файл</label>
+                <input type="file" class="form-control" id="file" multiple="multiple" placeholder="Выберите нужный файл">
+              </div>
+              <div class="form-group">
+                <label for="status">Статус задачи</label>
+                <select class="form-control" id="status">
+                  <option value="0">Новые</option>
+                  <option value="1">В работе</option>
+                  <option value="2">Завершенные</option>
+                </select>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+            <button type="submit"  class="btn btn-primary" id="saveTaskButton" onclick="createTask()">Создать</button>
+          </div>
+         </div>
+       </div>
+     </div> -->
+  </div>
+  <div id="tasks" class="tabcontent">
+    <div class="tab-content mt-3">
+      <div id="tasks" class="tab-pane fade show active">
+  <div method="post" action="getTask.php" id="taskContainer" class="container">
+    <div class="row">
+      <div class="col-md-4" data-status="0">
+        <h3 style="color: #007bff;">Новые</h3>
+        <ul id="list-group-0" class="list-group">
+          <button type="button" class="delete-button" onclick="deleteTask(this)">Удалить</button>
+      </ul>
+      </div>
+      <div class="col-md-4" data-status="1">
+        <h3 style="color: #e0da2d;">В работе</h3>
+        <ul id="list-group-1" class="list-group"></ul>
+      </div>
+      <div class="col-md-4" data-status="2">
+        <h3 style="color: #1cb117;">Завершенные</h3>
+        <ul id="list-group-2" class="list-group"></ul>
+      </div>
+    </div>
+  </div>
+  </div>
+ </div>
+</div>
+
+
+<div id="employees" class="tabcontent">
+  <div method="post" action="employee.php" class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header">Сотрудники</div>
+          <div class="card-body">
+            <div class="d-flex justify-content-start mb-2">
+              <div class="btn-group" role="group" aria-label="Employee Sort Buttons">
+                <!-- <button type="button" class="btn btn-primary" id="add-employee-btn">Добавить сотрудника</button> -->
+                <button type="button" class="btn btn-secondary" id="sort-az-btn">По алфавиту: А до Я</button>
+                <button type="button" class="btn btn-secondary" id="sort-za-btn">По алфавиту: Я до А</button>
+              </div>
+            </div>
+            <ul class="list-group" id="employee-list"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Модальное окно для добавления нового сотрудника -->
+<!-- <div class="modal fade" id="addEmployeeModal" tabindex="-1" role="dialog" aria-labelledby="addEmployeeModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addEmployeeModalLabel">Добавить сотрудника</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="addEmployeeForm">
+          <div class="form-group">
+            <label for="employeeFirstName">Имя Фамилия</label>
+            <input type="text" class="form-control" id="employeeFirstName" placeholder="Введите имя и фамилию" required>
+          </div>
+          <div class="form-group">
+            <label for="employeePosition">Должность</label>
+            <input type="text" class="form-control" id="employeePosition" placeholder="Введите должность" required>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Отмена</button>
+        <button type="submit" class="btn btn-primary" form="addEmployeeForm">Добавить</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+  <!-- Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <script src="../js/modal2.js"></script>
+  <script src="../js/modal3.js"></script>
+</body>
+</html>

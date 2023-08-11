@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <link rel="stylesheet" href="../css/bootstrap2.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index2user.html">TaskMaster</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Профиль</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+    <div class="container">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title" id="name"></h5>
+            <h6 class="card-subtitle mb-2 text-muted">Должность: <span id="position"></span></h6>
+            <p class="card-text">Логин: <span id="login"></span></p>
+            <p class="card-text">Дата Рождения: <span id="datebirth"></span></p>
+            <p class="card-text">Номер телефона: <span id="phone"></span></p>
+            <p class="card-text">Почта: <span id="mail"></span></p>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        // Подгрузка данных из базы данных
+        const nameElement = document.getElementById('name');
+        const positionElement = document.getElementById('position');
+        const loginElement = document.getElementById('login');
+        const datebirthElement = document.getElementById('datebirth');
+        const phoneElement = document.getElementById('phone');
+        const mailElement = document.getElementById('mail');
+
+    
+        // Здесь можно использовать код для загрузки данных из базы данных
+        const nameFromDatabase = 'Алексей Иванов';
+        const positionFromDatabase = 'Веб-разработчик';
+        const loginFromDatabase = 'user@mail.ru';
+        const datebirthFromDatabase = '15.03.1985';
+        const phoneFromDatabase = '+375332457864';
+        const mailFromDatabase = 'alexey@mail.ru';
+    
+        nameElement.innerText = nameFromDatabase;
+        positionElement.innerText = positionFromDatabase;
+        loginElement.innerText = loginFromDatabase;
+        datebirthElement.innerText = datebirthFromDatabase;
+        phoneElement.innerText = phoneFromDatabase;
+        mailElement.innerText = mailFromDatabase;
+      </script>
+</body>
+</html>
